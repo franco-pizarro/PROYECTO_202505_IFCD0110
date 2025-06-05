@@ -1,1 +1,69 @@
-testiiiiiiiiiiing
+body{
+    background-color: antiquewhite;
+}
+
+ul.redes {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 10px;
+    margin: 0;
+    background-color: #3d3d3d;
+    justify-content: center;
+}
+ul.redes li a:hover {
+    transform: scale(1.2);
+}
+ul.redes li a {
+  text-decoration: none; /* Sin subrayado */
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-family:Impact;
+  transition: 0.3s ease;
+}
+.productos, .tabla-stock, .lista {
+    padding: 2rem;
+    background-color: #f7f7f7;
+    margin: 2rem auto;
+    max-width: 1200px;
+    border-radius: 10px;
+}
+  
+.titulo-seccion {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+  
+.contenedor-articulos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+  
+.articulo {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+  
+.articulo:hover {
+    transform: scale(1.05);
+}
+  
+.articulo img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.precio {
+    display: block;
+    font-weight: bold;
+    color: #3a3838;
+    margin-top: 0.5rem;
+}
