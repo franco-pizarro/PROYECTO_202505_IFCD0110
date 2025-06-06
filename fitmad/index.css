@@ -1,3 +1,60 @@
+* {
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+
+}
+.sec1 {
+    background: url("img/fondo-index.jpg");
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+/* cambia el espacio del spacio donde va la imagen  */
+section {
+    width: 100%;
+    height: 100vh;
+}
+.contain {
+    width: 100%;
+    height:100px;
+    background: white;
+    text-align: center;
+
+    
+    
+}
+/* .contain p {
+    font: size 2.5em;
+    font-family: "late";
+    line-height: 200px;
+}
+ */
+/* ......barra............. */
+.rrss {
+    padding-left:200px;
+    padding-right:200px;
+    background-color: #b02c2c;
+    height:30px;
+    i {
+        margin-top:5px;
+    
+    }
+}
+
+
+/* el nav para poner el menu en styky */
+nav {
+    position: sticky;
+    top: 0;
+    padding: 0px;
+}
+
+/* ............style.....jim....paguina index paralax................. */
+.menu{
+    display: flex;
+    justify-content: center;
+}
+/* .........menu ............. */
 body{
     background-color: antiquewhite;
 }
