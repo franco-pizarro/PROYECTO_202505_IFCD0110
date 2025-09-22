@@ -57,7 +57,7 @@
         "email" : "m.alexandra1118@gmail.com",
         "linked" : "https://www.linkedin.com/in/maryuryalexandracaballeromontes?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "github" : "Maryu1118",
-        "url" : "https://cvmaryurycaballero.netlify.app/",
+        "url" : "https://dulceysalado.netlify.app/",
         "inicio" : {
             "html" : 0,
             "css" : 0,
@@ -65,10 +65,10 @@
             "WP" :0
         },
             "fin" : {
-            "html" : 4,
-            "css" : 4,
-            "JS" : 4,,
-            "WP" :0
+            "html" : 3,
+            "css" : 3,
+            "JS" : 3,
+            "WP" :1
         }
     },
     {
